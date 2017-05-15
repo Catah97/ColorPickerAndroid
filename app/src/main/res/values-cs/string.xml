@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">Color Picker</string>
+    <string name="Path">/sdcard/Temp.jpg</string>
+    <string name="banner">ca-app-pub-6034316604830505/3123785677</string>
+    <string name="ads_window">ca-app-pub-6034316604830505/6018376475</string>
+
+    <string-array name="MenuPhoto">
+        <item>"Otočit doleva"</item>
+        <item>"Otočit doprava"</item>
+        <item>"Lupa"</item>
+        <item>"Nastavení"</item>
+        <item>"Moje barvy"</item>
+    </string-array>
+
+    <string-array name="RGBseznamOptions">
+        <item>Přejmenovat</item>
+        <item>Odstranit</item>
+    </string-array>
+
+
+
+    <string name="PickedColor">Moje barvy</string>
+
+
+    <string name="SaveDialogColorName">Jméno barvy</string>
+
+
+    <string name="rgb_seznam_noColors">Žadné barvy</string>
+
+    <string name="Settings">Nastavení</string>
+    <string name="Settings_DefaultModel">Výchozí barevný model:</string>
+    <string name="SAVE">Uložit</string>
+    <string name="Notification_MainTitle">Color Picker: Pro návrat do applikace klikněte zde.</string>
+    <string name="Notification_Title">Color Picker</string>
+    <string name="Notification_Text">Pro návrat klikněte zde.</string>
+    <string name="Notification_Error">Nedostatek paměti: Aplikace Color Picker byla ukončena.</string>
+    <string name="Downloand_Complete">"Chyba při stahování: "</string>
+    <string name="Download_Error">Stahování dokončeno.</string>
+    <string name="SaveDialogError">Napsali jste nepovolený znak. (;)</string>
+    <string name="Cancel">Zrušit</string>
+    <string name="GetURL_EnterAddres">Vložte URL adresu obrázku</string>
+    <string name="Dowlanding">Stahování</string>
+    <string name="Yes">Ano</string>
+    <string name="No">Ne</string>
+    <string name="Warring">Varování</string>
+    <string name="Downloading_start">Zkopírujte URL adresu obrázku, který chcete stáhnout.</string>
+    <string name="LoadingPhoto_Fail">Chyba. Prosím načtěte fotku z galerie.</string>
+    <string name="PhotoGetFail">Obrázek nemohl být načten.</string>
+    <string name="Settings_SaveAsk">Přejete si uložit nastavení?</string>
+    <string name="RenameDialog">Zadejte jméno.</string>
+    <string name="SaveDialogValueEmpty">Nenapsali jste žádné jméno.</string>
+    <string name="SAVE_FAIL">Uložení se nezdařilo.</string>
+    <string name="RGBseznamDELETE">Barva byla smazána.</string>
+    <string name="RGBseznamMainColorChange">Hlavní barvený model barvy byl změněn.</string>
+    <string name="SAVED">Uloženo</string>
+    <string name="SaveDialog_NothingNAME">Moje barva</string>
+    <string name="NO_internet">Internet neni dostupný.</string>
+    <string name="cameraError">Kamere je nedostupná</string>
+    <string name="permisionError">Bez tohoto oprávnění nemůže aplikace fungovat</string>
+    <string name="copySucess">Hodnota byla zkopírována</string>
+
+
+</resources>

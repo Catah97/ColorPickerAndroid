@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">Color Picker</string>
+    <string name="Path">/sdcard/Temp.jpg</string>
+    <string name="banner">ca-app-pub-6034316604830505/3123785677</string>
+    <string name="ads_window">ca-app-pub-6034316604830505/6018376475</string>
+
+    <string-array name="MenuPhoto">
+        <item>"Nach links drehen"</item>
+        <item>"Nach rechts drehen"</item>
+        <item>"Lupe"</item>
+        <item>"Einstellungen"</item>
+        <item>"Meine Farben"</item>
+    </string-array>
+
+    <string-array name="RGBseznamOptions">
+        <item>Umbenennen</item>
+        <item>Löschen</item>
+    </string-array>
+
+
+
+    <string name="PickedColor">Meine Farben</string>
+
+
+    <string name="SaveDialogColorName">Farbenname:</string>
+
+
+    <string name="rgb_seznam_noColors">Keine Farbe</string>
+
+    <string name="Settings">Einstellungen</string>
+    <string name="Settings_DefaultModel">Standard-Farbmodell:</string>
+    <string name="SAVE">Speichern</string>
+    <string name="Notification_MainTitle">Color Picker: Um zur Anwendung zurückzukehren, klicken Sie hier.</string>
+    <string name="Notification_Title">Color Picker</string>
+    <string name="Notification_Text">Für Rückkehren hier klicken.</string>
+    <string name="Notification_Error">Nicht genügend Arbeitsspeicher: Anwendung gestoppt.</string>
+    <string name="Downloand_Complete">"Download-Fehler: "</string>
+    <string name="Download_Error">Download abgeschlossen.</string>
+    <string name="SaveDialogError">Verbotene Zeichen (;)</string>
+    <string name="Cancel">Absagen</string>
+    <string name="GetURL_EnterAddres">Fügen Sie die URL-Adresse des Bildes ein.</string>
+    <string name="Dowlanding">Herunterladen</string>
+    <string name="Yes">Ja</string>
+    <string name="No">Nein</string>
+    <string name="Warring">die Warnung</string>
+    <string name="Downloading_start">Kopieren Sie die URL des Bildes, das Sie herunterladen möchten.</string>
+    <string name="LoadingPhoto_Fail">Fehler. Bitte laden Sie das Bild aus der Galerie.</string>
+    <string name="PhotoGetFail">Bild konnte nicht geladen werden.</string>
+    <string name="Settings_SaveAsk">Wollen Sie die Einstellungen speichern?</string>
+    <string name="RenameDialog">Geben Sie den Namen ein.</string>
+    <string name="SaveDialogValueEmpty">Sie haben den Namen nicht geschrieben.</string>
+    <string name="SAVE_FAIL">Saving gescheitert.</string>
+    <string name="RGBseznamDELETE">Die Farbe wurde gelöscht.</string>
+    <string name="RGBseznamMainColorChange">Hauptfarbmodell der Farbe wurde geändert.</string>
+    <string name="SAVED">Gespeichert</string>
+    <string name="SaveDialog_NothingNAME">Meine Farbe</string>
+    <string name="NO_internet">Keine netzwerk verbindung</string>
+    <string name="cameraError">Kamera kannst nicht start.</string>
+    <string name="permisionError">Ohne diese Genehmigung kann die Applikation nicht arbeiten.</string>
+    <string name="copySucess">Wert wurde kopiert</string>
+
+</resources>

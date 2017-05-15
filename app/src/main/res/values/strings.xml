@@ -1,0 +1,64 @@
+<resources>
+
+    <string-array name="MenuPhoto">
+        <item>"Rotate left"</item>
+        <item>"Rotate right"</item>
+        <item>"Magnifier"</item>
+        <item>"Settings"</item>
+        <item>"Picked colors"</item>
+    </string-array>
+
+    <string-array name="RGBseznamOptions">
+        <item>Rename</item>
+        <item>Delete</item>
+    </string-array>
+
+    <string name="app_name">Color Picker</string>
+    <string name="Path">/sdcard/Temp.jpg</string>
+    <string name="banner">ca-app-pub-6034316604830505/3123785677</string>
+    <string name="ads_window">ca-app-pub-6034316604830505/6018376475</string>
+
+
+
+    <string name="PickedColor">Picked Colors</string>
+
+
+    <string name="SaveDialogColorName">Color\'s name:</string>
+
+
+    <string name="rgb_seznam_noColors">No colors</string>
+
+    <string name="Settings">Setting</string>
+    <string name="Settings_DefaultModel">Default color model selection</string>
+    <string name="SAVE">Save</string>
+    <string name="Notification_MainTitle">Color Picker: For return into application click here.</string>
+    <string name="Notification_Title">Color Picker</string>
+    <string name="Notification_Text">For return click here.</string>
+    <string name="Notification_Error">Low memory: App Color Picker has been stoped.</string>
+    <string name="Downloand_Complete">"Download error: "</string>
+    <string name="Download_Error">Download complete.</string>
+    <string name="SaveDialogError">You have written incorrect chapters. (;)</string>
+    <string name="Cancel">Cancel</string>
+    <string name="GetURL_EnterAddres">Enter url adress</string>
+    <string name="Dowlanding">Dowloading</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="Warring">Warring</string>
+    <string name="Downloading_start">Copy URl adress of the picture that you want dowloand.</string>
+    <string name="LoadingPhoto_Fail">Loading fail. Please load photo from galery</string>
+    <string name="PhotoGetFail">The picture cannot be loaded.</string>
+    <string name="Settings_SaveAsk">Would you like save settings</string>
+    <string name="RenameDialog">Enter the name .</string>
+    <string name="SaveDialogValueEmpty">You have not entered any value.</string>
+    <string name="SAVE_FAIL">Save failed.</string>
+    <string name="RGBseznamDELETE">Color has been deleted</string>
+    <string name="RGBseznamMainColorChange">The main color model has been changed</string>
+    <string name="SAVED">Saved</string>
+    <string name="SaveDialog_NothingNAME">Picked Color</string>
+    <string name="NO_internet">No network connection</string>
+    <string name="cameraError">Camera can not be start.</string>
+    <string name="permisionError">Without this permision, app cannot work</string>
+    <string name="copySucess">Value has been copied</string>
+
+
+</resources>

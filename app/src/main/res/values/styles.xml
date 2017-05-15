@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="WelcomScreen_NoActionBar" parent="android:Theme.Holo.Light.NoActionBar">
+
+    </style>
+
+    <style name="DialogTheme" parent="android:Theme.Holo.Light">
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/welcom_Relativelayout"
+    android:orientation="vertical">
+
+    <Button
+        android:onClick="btnSeznamClick"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/PickedColor"
+        android:id="@+id/btnHodnoty"
+        android:visibility="visible"
+        android:background="@drawable/btnsave_choosescreen"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnFoundPhoto"
+        android:src="@drawable/album"
+        android:visibility="invisible"
+        android:layout_above="@+id/imgViewStart"
+        android:layout_toLeftOf="@+id/imgViewStart"
+        android:layout_toStartOf="@+id/imgViewStart"
+        android:layout_margin="-1dp"
+        android:layout_marginBottom="-3dp" />
+    <!--polohe ja pozdeji donastravena v programu-->
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnTakePhoto"
+        android:src="@drawable/camera"
+        android:visibility="invisible"
+        android:layout_above="@+id/imgViewStart"
+        android:layout_toRightOf="@+id/imgViewStart"
+        android:layout_toEndOf="@+id/imgViewStart"
+        android:layout_marginBottom="-3dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnInternetPhoto"
+        android:src="@drawable/internet"
+        android:visibility="invisible"
+        android:layout_below="@+id/imgViewStart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imgViewStart"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:translationZ="10dp"
+        android:src="@drawable/plus"
+        android:visibility="visible"
+        android:cropToPadding="false" />
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/banner"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+        </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>

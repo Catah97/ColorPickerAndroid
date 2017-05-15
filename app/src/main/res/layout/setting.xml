@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:background="@drawable/btnsave_choosescreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SAVE"
+        android:id="@+id/btnSave"
+        android:onClick="Save"
+        android:layout_below="@+id/scrollView"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Settings_DefaultModel"
+        android:id="@+id/textView"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:layout_margin="10dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="267dp"
+            android:orientation="vertical"
+            android:id="@+id/radioGroup"
+            android:nestedScrollingEnabled="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RGB"
+                android:id="@+id/radionBtnRGB"
+                android:checked="true"
+                android:textSize="15dp"
+                android:layout_margin="10dp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HEX"
+                android:id="@+id/radionBtnHEX"
+                android:checked="false"
+                android:layout_margin="10dp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CMYK"
+                android:id="@+id/radionBtnCMYK"
+                android:checked="false"
+                android:layout_margin="10dp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HSV"
+                android:id="@+id/radionBtnHSV"
+                android:checked="false"
+                android:layout_margin="10dp" />
+        </RadioGroup>
+    </ScrollView>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

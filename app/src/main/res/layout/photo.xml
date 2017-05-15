@@ -1,0 +1,195 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageViewChache"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:background="#ffffff" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/background"
+        android:adjustViewBounds="false"
+        android:focusableInTouchMode="false"
+        android:layout_below="@+id/imgOUT"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/imgOUT"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/positionOUT"
+        android:layout_alignTop="@+id/background"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/lupa"
+        android:visibility="invisible"
+        android:background="@android:color/transparent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:alpha="1" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/background">
+
+        <RelativeLayout
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:text="C: 0.000 M: 0.000 Y: 0.000 K: 0.000 | Pick"
+            android:id="@+id/btnSave"
+            android:textSize="12dp"
+            android:background="@drawable/btnphotosavecolor"
+            android:textColor="@android:color/white"
+            android:layout_centerHorizontal="true"
+            android:alpha="0.75"
+            android:gravity="center_horizontal|left"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="4dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C:"
+                android:id="@+id/txt1"
+                android:textSize="12dp"
+                android:textColor="#ffffff"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="255"
+                android:id="@+id/txtValue1"
+                android:textSize="12dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/txt1"
+                android:layout_toEndOf="@+id/txt1"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="M:"
+                android:id="@+id/txt2"
+                android:textSize="12dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/txtValue1"
+                android:layout_toEndOf="@+id/txtValue1"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.000"
+                android:id="@+id/txtValue2"
+                android:textSize="12dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/txt2"
+                android:layout_toEndOf="@+id/txt2"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Y:"
+                android:id="@+id/txt3"
+                android:textSize="12dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/txtValue2"
+                android:layout_toEndOf="@+id/txtValue2"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.000"
+                android:id="@+id/txtValue3"
+                android:textSize="12dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/txt3"
+                android:layout_toEndOf="@+id/txt3"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="K:"
+                android:id="@+id/txt4"
+                android:textSize="12dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/txtValue3"
+                android:layout_toEndOf="@+id/txtValue3"
+                android:textColor="#ffffff"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0.000"
+                android:id="@+id/txtValue4"
+                android:textSize="12dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/txt4"
+                android:layout_toEndOf="@+id/txt4"
+                android:textColor="#ffffff"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="    Pick!"
+                android:id="@+id/txtPick"
+                android:textSize="14dp"
+                android:textColor="#ffffff"
+                android:visibility="visible"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/txtValue4"
+                android:layout_toEndOf="@+id/txtValue4"
+                android:layout_marginLeft="3dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/btnsave_pick"
+                android:autoText="false" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

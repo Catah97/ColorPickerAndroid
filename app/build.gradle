@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+    }
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+    defaultConfig {
+        applicationId 'appforceone.color_picker'
+        minSdkVersion 13
+        targetSdkVersion 23
+        versionCode 9
+        versionName "1.8"
+    }
+    buildTypes {
+        release {
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.google.android.gms:play-services-ads:8.3.0'
+    compile 'com.android.support:appcompat-v7:23.0.0'
+}

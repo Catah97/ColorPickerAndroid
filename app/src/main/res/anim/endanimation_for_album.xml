@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true">
+    <alpha  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fromAlpha="1.0"
+        android:toAlpha="0.0"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:duration="500"
+        android:startOffset="200"
+        android:repeatCount="0"
+        />
+    <!--
+            android:duration určuje dobu trvání animace v ms
+            android:repeatCount udává počet opakování animace
+    -->
+    <translate  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fromXDelta="0"
+        android:toXDelta="50"
+        android:fromYDelta="0"
+        android:toYDelta="47"
+        android:duration="500"
+        android:startOffset="200"
+        android:repeatCount="0"/>
+</set>

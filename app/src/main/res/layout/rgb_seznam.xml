@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:visibility="visible">
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listRGB"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        android:clickable="false"
+        android:drawSelectorOnTop="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:transitionGroup="false"
+        android:stackFromBottom="false"
+        android:smoothScrollbar="false"
+        android:scrollingCache="true"
+        android:longClickable="true"
+        android:layout_above="@+id/adView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/rgb_seznam_noColors"
+        android:id="@+id/txtRGBfail"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        android:layout_margin="10dp"
+        android:textColor="#ff000000"
+        android:gravity="center" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>
